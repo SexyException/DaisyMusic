@@ -1,7 +1,7 @@
 {
     "name": "🫧˹𝑱𝙚𝙣𝙣𝙞𝙚 ✘ 𝙍𝙤𝙗𝙤 ˼ ~🥀",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/aa015718299510040d41f.jpg",
+    "logo": "https://graph.org/file/64ec2797bdf09850c006f.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -54,7 +54,7 @@
       },
       "AUTO_GCAST": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 [True] 𝐅𝐎𝐑 𝐎𝐍 𝐀𝐔𝐓𝐎 𝐆𝐂𝐀𝐒𝐓/𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄, (Leave Blank This Field & skip To Disbale Auto Gcast/Broadcast.)",
-        "value": "True",
+        "value": "Enjoy Daisy Music Bot",
         "required": false
       },
       "AUTO_GCAST_MSG": {
@@ -64,7 +64,7 @@
       },
       "START_IMG_URL": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐑𝐓 𝐁𝐎𝐓 𝐈𝐌𝐀𝐆𝐄 𝐔𝐑𝐋, 𝐆𝐄𝐓 𝐈𝐓 𝐅𝐑𝐎𝐌 ;- t.me/vTelegraphBot",
-        "value": "https://telegra.ph/file/aa015718299510040d41f.jpg",
+        "value": "https://graph.org/file/d5d74065ef9e2516ce4e2.jpg",
         "required": false
       },
       "LOGGER_ID": {
