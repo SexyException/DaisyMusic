@@ -31,15 +31,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining6/MOONMUSICC",
+    "https://github.com/SexyException/DaisyMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MOON_SOCIETYY")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MILKY_WAY_45")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PromotersShehzada")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/class_11th_quiz_groups_2024")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -87,14 +87,7 @@ STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
-
-
-#      __  __  ____   ____  _   _   __  __ _    _  _____ _____ _____   ____   ____ _______ 
-#     |  \/  |/ __ \ / __ \| \ | | |  \/  | |  | |/ ____|_   _/ ____| |  _ \ / __ \__   __|
-#     | \  / | |  | | |  | |  \| | | \  / | |  | | (___   | || |      | |_) | |  | | | |   
-#     | |\/| | |  | | |  | | . ` | | |\/| | |  | |\___ \  | || |      |  _ <| |  | | | |   
-#     | |  | | |__| | |__| | |\  | | |  | | |__| |____) |_| || |____  | |_) | |__| | | |   
-#     |_|  |_|\____/ \____/|_| \_| |_|  |_|\____/|_____/|_____\_____| |____/ \____/  |_|   
+#
                                                                                       
                                                                                        
 
@@ -112,10 +105,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/aa015718299510040d41f.jpg"
+    "START_IMG_URL", "https://graph.org/file/d5d74065ef9e2516ce4e2.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/aa015718299510040d41f.jpg"
+    "PING_IMG_URL", "https://graph.org/file/75d9cbc6955c884deb021.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/aa015718299510040d41f.jpg"
