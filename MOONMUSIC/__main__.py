@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐥𝐥 𝐀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 V2 𝐒𝐞𝐬𝐬𝐢𝐨𝐧🤬")
+        LOGGER(name).error("Session String toh Phle Laga Le Bhai😆")
         
     await sudo()
     try:
@@ -36,18 +36,27 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("MOONMUSIC.plugins" + all_module)
-    LOGGER("MOONMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+    LOGGER("MOONMUSIC.plugins").info("All Loaded Get Ready To Fyt...⚡️")
     await userbot.start()
     await MOON.start()
+try:
+        await MOON.stream_call("https://graph.org/file/228c36d54ca891d0310f5.mp4")
+    except NoActiveGroupCall:
+        LOGGER("MOONMUSIC.plugins").error(
+            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
+        )
+        exit()
+    except:
+        pass
     await MOON.decorators()
     LOGGER("MOONMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐄𝐗𝐂𝐄𝐏𝐓𝐈𝐎𝐍 ♨️\n╚═════ஜ۩۞۩ஜ════╝"
+        "\x41\x6e\x6f\x6e\x58\x20\x4d\x75\x73\x69\x63\x20\x42\x6f\x74\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\n\n\x44\x6f\x6e'\x74\x20\x66\x6f\x72\x67\x65\x74\x20\x74\x6f\x20\x76\x69\x73\x69\x74\x20\x40\x46\x61\x6c\x6c\x65\x6e\x41\x73\x73\x6f\x63\x69\x61\x74\x69\x6f\x6e"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("MOONMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐄𝐗𝐂𝐄𝐏𝐓𝐈𝐎𝐍 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
-    
+    LOGGER("MOONMUSIC").info("Stopping DAISY MusicBot...")
 
-if __name__ == "__main__":
+
+if name == "main":
     asyncio.get_event_loop().run_until_complete(init())
