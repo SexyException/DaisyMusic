@@ -1,7 +1,7 @@
 {
-    "name": " 𝐷𝐴𝐼𝑆𝑌 𝑀𝑈𝑆𝐼𝐶 𝐵𝑂𝑇",
-    "description": "𝐴 𝑇𝐸𝐿𝐸𝐺𝑅𝐴𝑀 𝑀𝑈𝑆𝐼𝐶 𝑃𝐿𝐴𝑌𝐸𝑅 𝐵𝑂𝑇 , 𝑊𝑅𝐼𝑇𝑇𝐸𝑁 𝐼𝑁 𝑃𝑌𝑇𝐻𝑂𝑁 𝐴𝑁𝐷  𝑃𝑌𝑅𝑂𝐺𝑅𝐴𝑀 𝑃𝑌-𝑇𝐺𝐶𝐴𝐿𝐿𝑆",
-    "logo": "https://telegra.ph/file/bb5584cafea85871d2fee.jpg",
+    "name": "🌹 9𝐗𝐌 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓🥀",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,32 +13,32 @@
     ],
     "env": {
       "API_ID": {
-        "description": "ɢᴇᴛ ᴀᴘɪ ɪᴅ ғʀᴏᴍ ʜᴇʀᴇ -  https://my.telegram.org",
-        "value": "",
+        "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐈𝐃 𝐅𝐑𝐎𝐌 https://my.telegram.org",
+        "value": "14050586",
         "required": true
       },
       "API_HASH": {
-        "description": "ɢᴇᴛ ᴀᴘɪ ʜᴀsʜ ғᴏʀᴍᴇ ʜᴇʀᴇ -  https://my.telegram.org",
-        "value": "",
+        "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐇𝐀𝐒𝐇 𝐅𝐑𝐎𝐌 https://my.telegram.org",
+        "value": "42a60d9c657b106370c79bb0a8ac560c",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "ɢᴇᴛ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @botfather",
+        "description": "𝐆𝐄𝐓 𝐁𝐎𝐓 𝐓𝐎𝐊𝐄𝐍 𝐅𝐑𝐎𝐌 𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": " ɢᴇᴛ ᴀ ᴍᴏɴɢᴏ ᴅᴀᴛᴀʙᴀsᴇ ғʀᴏᴍ ʜᴇʀᴇ - https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
-        "value": "",
+        "description": "𝐆𝐄𝐓 𝐀 𝐌𝐎𝐍𝐆𝐎𝐃𝐁 𝐔𝐑𝐋 𝐅𝐑𝐎𝐌 https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
+        "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
-        "description": "ғɪʟʟ ᴏᴡɴᴇʀ ɪᴅ.",
-        "value": "7050009951"
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃, 𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐎𝐑𝐄 𝐏𝐄𝐑𝐒𝐎𝐍 𝐈𝐃 𝐁𝐘 𝐆𝐈𝐕𝐄𝐈𝐍𝐆 𝐒𝐏𝐀𝐂𝐄 𝐀𝐅𝐓𝐄𝐑 𝐎𝐍𝐄 𝐈𝐃.",
+        "value": "1808943146",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "ғɪʟʟ ʜᴇʀᴇ ᴘᴘᴘʜʏʀᴏɢʀᴀᴍ ᴠ2 sᴛʀɪɴɢ. ",
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀  𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 V2 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍, 𝐈𝐅 𝐄𝐑𝐑𝐎𝐑 𝐓𝐇𝐄𝐍 𝐒𝐄𝐍𝐃 𝐄𝐑𝐑𝐎𝐑 𝐒𝐒 𝐓𝐎 𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑.( 𝐆𝐄𝐓 𝐅𝐑𝐎𝐌 = t.me/VIP_STRING_ROBOT ) . ",
         "value": "",
         "required": true
       },
@@ -54,7 +54,7 @@
       },
       "START_IMG_URL": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐑𝐓 𝐁𝐎𝐓 𝐈𝐌𝐀𝐆𝐄 𝐔𝐑𝐋, 𝐆𝐄𝐓 𝐈𝐓 𝐅𝐑𝐎𝐌 ;- t.me/vTelegraphBot",
-        "value": "",
+        "value": "https://telegra.ph/file/adce6a621c1db2077df02.jpg",
         "required": false
       },
       "LOGGER_ID": {
