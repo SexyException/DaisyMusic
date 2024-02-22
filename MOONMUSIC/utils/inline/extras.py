@@ -5,8 +5,6 @@ from config import SUPPORT_CHAT
 
 def botplaylist_markup(_):
     buttons = [
-        [
-            InlineKeyboardButton(text=_["S_B_9"], url=SUPPORT_CHAT),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
     ]
