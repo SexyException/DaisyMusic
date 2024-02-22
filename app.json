@@ -1,5 +1,5 @@
 {
-    "name": "🫧˹𝘋𝘢𝘪𝘴𝘺 ✘ 𝘙𝘰𝘉𝘰𝘵 ˼ ~🥀",
+    "name": "🫧˹𝘋𝘢𝘪𝘴𝘺 ✘ 𝘙𝘰𝘉𝘰𝘵 ˼ 👻",
     "description": "An Advanced  TELEGRAM MUSIC PLAYER ROBOT, Written In Python With Pyrogram And Py-Tgcalls.",
     "logo": "https://telegra.ph/file/bb5584cafea85871d2fee.jpg",
 
@@ -20,7 +20,7 @@
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "𝐆ᴇᴛ ᴀ ᴍᴏɴɢᴏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀᴍ  https://cloud.mongodb.com,
+        "description": "𝐆ᴇᴛ ᴀ ᴍᴏɴɢᴏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀᴍ  https://cloud.mongodb.com",
         "value": "",
         "required": true
       },
