@@ -31,8 +31,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+                text=f"ᴊᴏɪɴ ʜᴇʀᴇ",
+              url="https://t.me/abouthearthacker",
             ),
         ],
     ]
@@ -92,8 +92,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+                text=f"ᴊᴏɪɴ ʜᴇʀᴇ",
+              url="https://t.me/abouthearthacker",
             ),
         ],
     ]
@@ -128,8 +128,8 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+                text=f"ᴊᴏɪɴ ʜᴇʀᴇ",
+              url="https://t.me/abouthearthacker",
             ),
         ],
     ]
@@ -257,8 +257,8 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=f"💘 𝐉𝐎𝐈𝐍 💘",
-              url="https://t.me/MOON_SOCIETYY",
+                text=f"ᴊᴏɪɴ ʜᴇʀᴇ",
+              url="https://t.me/abouthearthacker",
             ),
         ],
     ]
